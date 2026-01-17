@@ -20,7 +20,7 @@
 <style scoped>
 .hero {
   height: 100vh;
-  background: url('C:\Users\Filip\Desktop\Cale\public\MilojeZ.jpg') center/cover no-repeat;
+  background: url('/MilojeZ.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   padding: 4rem;
