@@ -21,7 +21,7 @@ export default async function handler(
 
   try {
     await transporter.sendMail({
-      from: email,
+      from: process.env.EMAIL_USER,
       to: 'milojez@gmail.com',
       subject: `New Contact Message from ${name}`,
       text: message,
