@@ -21,6 +21,7 @@
 <style scoped>
 .timeline {
   padding: 5rem 4rem;
+  background: url('/grb.jpg') center/cover no-repeat;
 }
 
 li {
