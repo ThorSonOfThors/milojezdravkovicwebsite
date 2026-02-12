@@ -4,6 +4,7 @@
   <Hero />
   <About />
   <Timeline />
+  <Diplomas/>
   <Gallery />
   <Contact />
 </template>
@@ -15,4 +16,5 @@ import Timeline from '../components/Timeline.vue'
 import Gallery from '../components/Gallery.vue'
 import Contact from '../components/Contact.vue'
 import Navbar from '../components/Navbar.vue'
+import Diplomas from '../components/Diplomas.vue'
 </script>

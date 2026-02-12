@@ -7,7 +7,7 @@
       :speed="0.3"
       class="gallery-parallax"
     >
-      <h2>Achievements</h2>
+      <h2>Gallery</h2>
     </ParallaxSection>
 
     <!-- Gallery grid -->
@@ -61,7 +61,9 @@ const images = [
   { id: 1, src: '/images/award1.jpg', title: 'Championship', desc: 'Won first place in competition' },
   { id: 2, src: '/images/award2.jpg', title: 'Certificate', desc: 'Completed professional course' },
   { id: 3, src: '/images/award3.jpg', title: 'Achievement', desc: 'Special recognition award' },
-  { id: 4, src: '/images/award4.jpg', title: 'Special Award', desc: 'Awarded for excellence' }
+  { id: 4, src: '/images/award4.jpg', title: 'Special Award', desc: 'Awarded for excellence' },
+  { id: 5, src: '/images/award5.jpg', title: 'Negotiations', desc: 'Showed exelenced in negotiations for the good of Serbian people on Kosovo' },
+  { id: 6, src: '/images/award6.jpg', title: 'Command and Staff College ', desc: 'Awarded for excellence' },
 ]
 
 const activeImg = computed(() => {
@@ -88,7 +90,16 @@ function next() {
 /* Header */
 .gallery {
   padding: 0;
+  
 }
+.gallery h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
 
 .gallery-parallax {
   height: 40vh;
@@ -98,6 +109,7 @@ function next() {
   background-position: center;
   background-size: cover; /* normal cover */
   background-repeat: no-repeat;
+  
 }
 
 .gallery-parallax h2 {
@@ -113,6 +125,7 @@ function next() {
   gap:1rem;
   justify-content: center;
   overflow-x: hidden;
+  font-family: "Georgia", "Times New Roman", serif;
 }
 
 /* Cards */

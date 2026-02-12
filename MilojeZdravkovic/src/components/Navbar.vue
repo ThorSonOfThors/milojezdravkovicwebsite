@@ -6,6 +6,7 @@
       <li><a href="#hero" @click.prevent="scrollTo('#hero')">Home</a></li>
       <li><a href="#about" @click.prevent="scrollTo('#about')">About</a></li>
       <li><a href="#timeline" @click.prevent="scrollTo('#timeline')">Timeline</a></li>
+      <li><a href="#diplomas" @click.prevent="scrollTo('#diplomas')">Diplomas</a></li>
       <li><a href="#gallery" @click.prevent="scrollTo('#gallery')">Gallery</a></li>
       <li><a href="#contact" @click.prevent="scrollTo('#contact')">Contact</a></li>
     </ul>
@@ -68,12 +69,11 @@ function scrollTo(target: string) {
 ul {
   display: flex;
   list-style: none;
-  gap: 1rem;
+  gap: 1.2rem;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap; /* wrap to next line if too small */
-  justify-content: flex-end;
 }
+
 
 /* Make items scrollable horizontally on very small screens */
 @media (max-width: 500px) {
