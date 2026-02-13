@@ -16,7 +16,7 @@
 <style scoped>
 .hero {
   height: 100vh;
-  background: url('/MilojeZ.jpg') center/cover no-repeat;
+  background: url('/MZ.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: flex-start; /* default align overlay left on desktop */
