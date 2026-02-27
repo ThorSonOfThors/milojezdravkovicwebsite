@@ -4,7 +4,7 @@
       <h1>Miloje Zdravković</h1>
       <p>Colonel of Serbian Army</p>
 
-      <a href="../../public/MILOJE ZDRAVKOVIC.pdf" download class="btn">
+      <a href="/MILOJE ZDRAVKOVIC.pdf" download class="btn">
         Download CV
       </a>
     </div>
